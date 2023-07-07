@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import { Pagination } from "../components/Pagination";
 import axios from "axios";
+
+import { Pagination } from "../components/Pagination";
 import { BookingsCard } from "../components/BookingsCard";
 import host from "../urls";
 
